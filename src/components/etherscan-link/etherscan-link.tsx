@@ -61,7 +61,6 @@ export const EtherscanLink = ({
       href={txLink}
       target="_blank"
       rel="noreferrer"
-      className="etherscan-link"
     >
       {linkText}
     </a>

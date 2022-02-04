@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: NeuePixelGrotesk;
+  src: url(./NeuePixelGrotesk-Regular.woff);
+}
+
+html,
+body {
+  @apply bg-black;
+  @apply text-white;
+  @apply font-sans;
+}

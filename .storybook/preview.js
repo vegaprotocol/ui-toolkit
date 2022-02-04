@@ -1,4 +1,4 @@
-import "../src/styles/index.scss";
+import "../src/styles/index.css";
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -9,3 +9,11 @@ export const parameters = {
     },
   },
 };
+
+export const decorators = [
+  (Story) => (
+    <div className="dark">
+      <Story />
+    </div>
+  ),
+];

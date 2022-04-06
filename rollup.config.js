@@ -70,7 +70,7 @@ const config = {
     nodeResolve({ extensions }),
     commonjs(),
     postcss({
-      modules: true,
+      extract: path.resolve("dist/style.css"),
       autoModules: true,
     }),
     babel({
